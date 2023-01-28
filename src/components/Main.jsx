@@ -1,4 +1,5 @@
 import React from "react";
+import Banner from "./Banner";
 
 function Main(props) {
   const handleSubmit=e=>{
@@ -6,7 +7,7 @@ function Main(props) {
   }
   return (
     <main>
-      <h1>hello world</h1>
+      <Banner/>
   
     </main>
   );
